@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PokeSPA/static/css/main.b5a5d677.chunk.css",
-    "main.js": "/PokeSPA/static/js/main.af867974.chunk.js",
-    "main.js.map": "/PokeSPA/static/js/main.af867974.chunk.js.map",
+    "main.js": "/PokeSPA/static/js/main.d9475b7a.chunk.js",
+    "main.js.map": "/PokeSPA/static/js/main.d9475b7a.chunk.js.map",
     "runtime-main.js": "/PokeSPA/static/js/runtime-main.af78dac7.js",
     "runtime-main.js.map": "/PokeSPA/static/js/runtime-main.af78dac7.js.map",
     "static/js/2.7b1a1591.chunk.js": "/PokeSPA/static/js/2.7b1a1591.chunk.js",
@@ -12,12 +12,14 @@
     "index.html": "/PokeSPA/index.html",
     "static/css/main.b5a5d677.chunk.css.map": "/PokeSPA/static/css/main.b5a5d677.chunk.css.map",
     "static/js/2.7b1a1591.chunk.js.LICENSE.txt": "/PokeSPA/static/js/2.7b1a1591.chunk.js.LICENSE.txt",
-    "static/media/loader.df503bcc.svg": "/PokeSPA/static/media/loader.df503bcc.svg"
+    "static/media/loader.df503bcc.svg": "/PokeSPA/static/media/loader.df503bcc.svg",
+    "static/media/logo256.56d47c40.png": "/PokeSPA/static/media/logo256.56d47c40.png",
+    "static/media/no-result.fb3ad3af.png": "/PokeSPA/static/media/no-result.fb3ad3af.png"
   },
   "entrypoints": [
     "static/js/runtime-main.af78dac7.js",
     "static/js/2.7b1a1591.chunk.js",
     "static/css/main.b5a5d677.chunk.css",
-    "static/js/main.af867974.chunk.js"
+    "static/js/main.d9475b7a.chunk.js"
   ]
 }
