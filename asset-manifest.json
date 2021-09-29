@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.b5a5d677.chunk.css",
-    "main.js": "./static/js/main.af867974.chunk.js",
-    "main.js.map": "./static/js/main.af867974.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.f797efdd.js",
-    "runtime-main.js.map": "./static/js/runtime-main.f797efdd.js.map",
-    "static/js/2.7b1a1591.chunk.js": "./static/js/2.7b1a1591.chunk.js",
-    "static/js/2.7b1a1591.chunk.js.map": "./static/js/2.7b1a1591.chunk.js.map",
-    "static/js/3.e2288ea1.chunk.js": "./static/js/3.e2288ea1.chunk.js",
-    "static/js/3.e2288ea1.chunk.js.map": "./static/js/3.e2288ea1.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.b5a5d677.chunk.css.map": "./static/css/main.b5a5d677.chunk.css.map",
-    "static/js/2.7b1a1591.chunk.js.LICENSE.txt": "./static/js/2.7b1a1591.chunk.js.LICENSE.txt",
-    "static/media/loader.df503bcc.svg": "./static/media/loader.df503bcc.svg"
+    "main.css": "/PokeSPA/static/css/main.b5a5d677.chunk.css",
+    "main.js": "/PokeSPA/static/js/main.af867974.chunk.js",
+    "main.js.map": "/PokeSPA/static/js/main.af867974.chunk.js.map",
+    "runtime-main.js": "/PokeSPA/static/js/runtime-main.af78dac7.js",
+    "runtime-main.js.map": "/PokeSPA/static/js/runtime-main.af78dac7.js.map",
+    "static/js/2.7b1a1591.chunk.js": "/PokeSPA/static/js/2.7b1a1591.chunk.js",
+    "static/js/2.7b1a1591.chunk.js.map": "/PokeSPA/static/js/2.7b1a1591.chunk.js.map",
+    "static/js/3.e2288ea1.chunk.js": "/PokeSPA/static/js/3.e2288ea1.chunk.js",
+    "static/js/3.e2288ea1.chunk.js.map": "/PokeSPA/static/js/3.e2288ea1.chunk.js.map",
+    "index.html": "/PokeSPA/index.html",
+    "static/css/main.b5a5d677.chunk.css.map": "/PokeSPA/static/css/main.b5a5d677.chunk.css.map",
+    "static/js/2.7b1a1591.chunk.js.LICENSE.txt": "/PokeSPA/static/js/2.7b1a1591.chunk.js.LICENSE.txt",
+    "static/media/loader.df503bcc.svg": "/PokeSPA/static/media/loader.df503bcc.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f797efdd.js",
+    "static/js/runtime-main.af78dac7.js",
     "static/js/2.7b1a1591.chunk.js",
     "static/css/main.b5a5d677.chunk.css",
     "static/js/main.af867974.chunk.js"
