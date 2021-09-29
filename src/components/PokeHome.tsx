@@ -2,6 +2,7 @@ import axios, { AxiosResponse } from "axios";
 import { Dispatch, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { ReactComponent as Loader } from "loader.svg";
+import noresult from "no-result.png";
 import {
     PokemonStore,
     PokeAction,
@@ -158,7 +159,7 @@ const PokeHome: React.FC = (props) => {
                 ""
             )}
             {list.length === 0 && !loading ? <div className="loading">
-                    <img src="/no-result.png" alt="no-result" />
+                    <img src={noresult} alt="no-result" />
                     <p>No results found.</p>
                 </div> : ""}
         </div>

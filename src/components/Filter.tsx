@@ -3,6 +3,7 @@ import { FilterResults, PokeAction } from "interfaces";
 import { useEffect, useState } from "react";
 import { Dispatch } from "redux";
 import { useDispatch } from "react-redux";
+import logo256 from "logo256.png"
 
 const Filter: React.FC = (props) => {
     const dispatch = useDispatch<Dispatch<PokeAction>>();
@@ -113,7 +114,7 @@ const Filter: React.FC = (props) => {
                                 }
                             />
                             <span>{`${v.name}`}</span>
-                            <img src="/logo256.png" alt={`check-${v.name}`} />
+                            <img src={logo256} alt={`check-${v.name}`} />
                         </label>
                     )
                 )}
