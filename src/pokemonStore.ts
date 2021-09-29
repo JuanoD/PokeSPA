@@ -1,38 +1,45 @@
 import { createStore } from "redux";
-
-interface Pokemon {
-    name: string;
-}
-
-interface PokemonStore {
-    pokemon: Pokemon[];
-    next: string;
-}
-
-interface action {
-    type: string;
-    payload: any;
-}
+import { PokemonStore, PokeAction } from "interfaces";
 
 const PokemonReducer = (
-    state: PokemonStore = { pokemon: [], next: "" },
-    action: action
-) => {
+    state: PokemonStore = {
+        pokemon: [],
+        search: "",
+        filter: { color: [], type: [], gender: 0 },
+        loading: true,
+    },
+    action: PokeAction
+): PokemonStore => {
     switch (action.type) {
-        case "initial-load":
-            const pokemon = localStorage.getItem("pokemon");
-            if (pokemon !== null) return JSON.parse(pokemon);
-            return state;
-        case "more":
+        case "pokemon":
             return {
-                next: action.payload.next,
-                pokemon: [...state.pokemon, ...action.payload.more],
+                ...state,
+                pokemon: action.payload.pokemon,
+                loading: false,
             };
+        case "loading":
+            return { ...state, loading: action.payload };
+        case "filter":
+            const { gender, color, type } = action.payload;
+            return {
+                ...state,
+                filter: {
+                    gender: gender,
+                    color: color,
+                    type: type,
+                },
+            };
+        case "search":
+            return { ...state, search: action.payload };
         default:
             return state;
     }
 };
 
-const pokeStore = createStore(PokemonReducer);
+const pokeStore = createStore(
+    PokemonReducer,
+    (window as any).__REDUX_DEVTOOLS_EXTENSION__ &&
+        (window as any).__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 export default pokeStore;
